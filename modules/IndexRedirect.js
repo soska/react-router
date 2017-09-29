@@ -1,10 +1,9 @@
+import { string, object } from 'prop-types'
 import React from 'react'
 import warning from './routerWarning'
 import invariant from 'invariant'
 import Redirect from './Redirect'
 import { falsy } from './InternalPropTypes'
-
-const { string, object } = React.PropTypes
 
 /**
  * An <IndexRedirect> is used to redirect from an indexRoute.

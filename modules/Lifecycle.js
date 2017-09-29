@@ -1,8 +1,6 @@
 import warning from './routerWarning'
-import React from 'react'
+import { object } from 'prop-types'
 import invariant from 'invariant'
-
-const { object } = React.PropTypes
 
 /**
  * The Lifecycle mixin adds the routerWillLeave lifecycle method to a

@@ -1,9 +1,8 @@
+import { object, string, func, bool, oneOfType } from 'prop-types'
 import React from 'react'
 import warning from './routerWarning'
 import invariant from 'invariant'
 import { routerShape } from './PropTypes'
-
-const { bool, object, string, func, oneOfType } = React.PropTypes
 
 function isLeftClickEvent(event) {
   return event.button === 0
