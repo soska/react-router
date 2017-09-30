@@ -1,5 +1,5 @@
 {
-  "name": "react-router-two",
+  "name": "react-router-dos",
   "version": "2.9.0",
   "description": "A complete routing library for React",
   "files": [
@@ -32,6 +32,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "create-react-class": "^15.6.2",
     "history": "^2.1.2",
     "hoist-non-react-statics": "^1.2.0",
     "invariant": "^2.2.1",

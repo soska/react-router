@@ -1,5 +1,6 @@
 import { string, object } from 'prop-types'
 import React from 'react'
+import createReactClass from 'create-react-class'
 import invariant from 'invariant'
 import { createRouteFromReactElement } from './RouteUtils'
 import { formatPattern } from './PatternUtils'
@@ -12,7 +13,7 @@ import { falsy } from './InternalPropTypes'
  * Redirects are placed alongside routes in the route configuration
  * and are traversed in the same manner.
  */
-const Redirect = React.createClass({
+const Redirect = createReactClass({
 
   statics: {
 

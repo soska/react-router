@@ -3,6 +3,7 @@ import useQueries from 'history/lib/useQueries'
 import invariant from 'invariant'
 import { object, func } from 'prop-types'
 import React from 'react'
+import createReactClass from 'create-react-class'
 
 import createTransitionManager from './createTransitionManager'
 import { routes } from './InternalPropTypes'
@@ -26,7 +27,7 @@ function isUnsupportedHistory(history) {
  * a router that renders a <RouterContext> with all the props
  * it needs each time the URL changes.
  */
-const Router = React.createClass({
+const Router = createReactClass({
 
   propTypes: {
     history: object,

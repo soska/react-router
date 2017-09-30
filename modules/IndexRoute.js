@@ -1,5 +1,6 @@
 import { func } from 'prop-types'
 import React from 'react'
+import createReactClass from 'create-react-class'
 import warning from './routerWarning'
 import invariant from 'invariant'
 import { createRouteFromReactElement } from './RouteUtils'
