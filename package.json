@@ -1,6 +1,6 @@
 {
   "name": "react-router-dos",
-  "version": "2.9.0",
+  "version": "2.9.1",
   "description": "A complete routing library for React",
   "files": [
     "*.md",
