@@ -10,7 +10,7 @@ import { component, components, falsy } from './InternalPropTypes'
  * An <IndexRoute> is used to specify its parent's <Route indexRoute> in
  * a JSX route config.
  */
-const IndexRoute = React.createClass({
+const IndexRoute = createReactClass({
 
   statics: {
 
